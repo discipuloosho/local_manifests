@@ -6,7 +6,7 @@
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="discipuloosho/arm-eabi-4.9" revision="master" remote="bitbucket" />
-  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="discipuloosho/arm-linux-androideabi-4.9" revision="master" remote="bitbucket" />
   <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" name="discipuloosho/sdclang" revision="master" remote="bitbucket" />
 
