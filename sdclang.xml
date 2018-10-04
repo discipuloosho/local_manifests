@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="bitbucket"
+           fetch="ssh://git@bitbucket.org" />
+
+  <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_4.0/prebuilt/linux-x86_64" name="discipuloosho/sdclang" revision="master" remote="bitbucket" />
+
+</manifest>
