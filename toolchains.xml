@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="bitbucket"
+           fetch="ssh://git@bitbucket.org" />
+
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="discipuloosho/arm-eabi-4.9" revision="master" remote="bitbucket" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="discipuloosho/arm-linux-androideabi-4.9" revision="master" remote="bitbucket" />
+  <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_4.0/prebuilt/linux-x86_64" name="discipuloosho/sdclang" revision="cm-14.1" remote="bitbucket" />
+
+</manifest>
