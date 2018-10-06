@@ -3,5 +3,5 @@
 
   <project path="vendor/discipuloosho" name="discipuloosho/vendor_discipuloosho" revision="master" remote="private" />
   <project path="packages/apps/CMFileManager" name="discipuloosho/android_packages_apps_CMFileManager" revision="cm-14.1" remote="private" />
-      <project path="external_libtruezip" name="LineageOS/android_external_libtruezip" revision="cm-14.1" remote="github" />
+      <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" revision="cm-14.1" remote="github" />
 </manifest>
